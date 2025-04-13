@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mathattach | Powered By GitHub</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <script src="scripts/main.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Mathattach</h1>
+    <nav>
+      <a href="#editor">Editor</a>
+      <a href="#preview">Preview</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <section id="editor">
+    <h2>Write Your Mathattach Code:</h2>
+    <textarea id="codeEditor" placeholder="Write Mathattach Syntax here..."></textarea>
+    <button onclick="renderCode()">Run</button>
+  </section>
+
+  <section id="preview">
+    <h2>Preview:</h2>
+    <div id="output"></div>
+  </section>
+
+</body>
+</html>
