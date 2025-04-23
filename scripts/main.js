@@ -4,4 +4,5 @@ function renderCode() {
   
   // Simplified Example - Injecting raw HTML for now
   output.innerHTML = code; 
+  output.innerPython = code; 
 }
